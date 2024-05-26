@@ -1,5 +1,4 @@
-import { db } from "@vercel/postgres";
-import Link from "next/link";
+import { db } from "~/server/db";
 
 const mockUrls = [
   "https://utfs.io/f/900a0b46-f72a-4d58-b0f5-289ebec97381-jlo1ag.jpg",
@@ -20,6 +19,9 @@ export default async function HomePage() {
   return (
     <main className="">
       <div className="flex flex-wrap gap-4">
+        {posts.map((post) => (
+          <div key={post.id}>{post.name}</div>
+        ))}
         {[...mockImages, ...mockImages, ...mockImages].map((image, index) => (
           <div key={image.id + "-" + index} className="w-48 p-4">
             <img src={image.url} alt="img" />
