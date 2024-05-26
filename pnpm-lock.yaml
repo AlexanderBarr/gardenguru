@@ -26,6 +26,7 @@ specifiers:
   prettier-plugin-tailwindcss: ^0.5.11
   react: 18.2.0
   react-dom: 18.2.0
+  server-only: ^0.0.1
   tailwindcss: ^3.4.1
   typescript: ^5.4.2
   uploadthing: ^6.12.0
@@ -43,6 +44,7 @@ dependencies:
   postgres: 3.4.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  server-only: 0.0.1
   uploadthing: 6.12.0_h2lq23wu4zbaco6kxuoliaveoq
   zod: 3.23.8
 
@@ -4913,6 +4915,10 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dev: true
+
+  /server-only/0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
+    dev: false
 
   /set-function-length/1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
