@@ -1,5 +1,7 @@
 # T3 Garden Guru
 
+Current rewrite and setup of Garden Guru
+
 ## TODO
 - [x] Make it deploy (vercel)
 - [x] Scaffold basic ui with mock data
@@ -14,3 +16,6 @@
 - [ ] Delete button with server actions
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
+
+
+## Features
