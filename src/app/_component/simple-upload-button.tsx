@@ -5,8 +5,6 @@ import { useUploadThing } from "~/utils/uploadthing";
 import { toast } from "sonner";
 import { usePostHog } from "posthog-js/react";
 import { totalmem } from "os";
-import { useEffect } from "react";
-
 // inferred input off useUploadThing
 type Input = Parameters<typeof useUploadThing>;
 
