@@ -3,6 +3,7 @@
 Current rewrite and setup of Garden Guru
 
 ## TODO
+### Init setup
 - [x] Make it deploy (vercel)
 - [x] Scaffold basic ui with mock data
 - [x] Tidy up build process
@@ -16,8 +17,8 @@ Current rewrite and setup of Garden Guru
 - [x] Update upload button
 - [x] Add Shadcn (toasts)
 - [x] Analytics (posthog)
-- [ ] Delete button with server actions
-- [ ] Ratelimiting (upstash)
+- [x] Delete button with server actions
+- [x] Ratelimiting (upstash)
 
 
 ## Features
@@ -28,16 +29,23 @@ Current rewrite and setup of Garden Guru
 
 
 
-## Standards 
-
+## Git Standards 
 Feat– feature
-
 Fix– bug fixes
-
 Docs– changes to the documentation like README
-
 Style– style or formatting change 
-
 Perf – improves code performance
-
 Test– test a feature
+
+## Tech Stack
+- React | Next.js 
+- Vercel (Builds and Deployment)
+    - https://vercel.com/
+- Clerk (Authentication)
+    -https://clerk.com/
+- Sentry (Error Management and Tracking)
+    -https://sentry.io
+- PostHog (Analytics)
+    -https://posthog.com/
+- UpStash (RateLimiting)
+    -https://upstash.com/

@@ -12,6 +12,8 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^7.1.1
   '@typescript-eslint/parser': ^7.1.1
   '@uploadthing/react': ^6.6.0
+  '@upstash/ratelimit': ^1.1.3
+  '@upstash/redis': ^1.31.3
   '@vercel/postgres': ^0.8.0
   class-variance-authority: ^0.7.0
   clsx: ^2.1.1
@@ -50,6 +52,8 @@ dependencies:
   '@sentry/nextjs': 8.4.0_next@14.2.3+react@18.2.0
   '@t3-oss/env-nextjs': 0.10.1_jrsixfd3f4mjiftf2iqecb3p7i
   '@uploadthing/react': 6.6.0_frqxzsdlwkogjh4rrpylw36plq
+  '@upstash/ratelimit': 1.1.3
+  '@upstash/redis': 1.31.3
   '@vercel/postgres': 0.8.0
   class-variance-authority: 0.7.0
   clsx: 2.1.1
@@ -2337,6 +2341,25 @@ packages:
       '@uploadthing/mime-types': 0.2.10
       effect: 3.2.5
       std-env: 3.7.0
+    dev: false
+
+  /@upstash/core-analytics/0.0.8:
+    resolution: {integrity: sha512-MCJoF+Y8fkzq4NRLG7kEHjtGyMsZ2DICBdmEdwoK9umoSrfkzgBlYdZiHTIaewyt9PGaMZCHOasz0LAuMpxwxQ==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@upstash/redis': 1.31.3
+    dev: false
+
+  /@upstash/ratelimit/1.1.3:
+    resolution: {integrity: sha512-rl+GMvPdZJ9xPDIvIrqRl/g0nzAEaH75hwR5lXAKW8zPPplD/AeliDCHwuwcFCPIjg49FKyA1oc5H473WkVFrQ==}
+    dependencies:
+      '@upstash/core-analytics': 0.0.8
+    dev: false
+
+  /@upstash/redis/1.31.3:
+    resolution: {integrity: sha512-KtVgWBUEx/LGbR8oRwYexwzHh3s5DNqYW0bjkD+gjFZVOnREJITvK+hC4PjSSD+8D4qJ+Xbkfmy8ANADZ9EUFg==}
+    dependencies:
+      crypto-js: 4.2.0
     dev: false
 
   /@vercel/postgres/0.8.0:
