@@ -8,6 +8,7 @@ import { extractRouterConfig } from "uploadthing/server";
 
 import { ourFileRouter } from "~/app/api/uploadthing/core";
 import React from "react";
+import { Toaster } from "sonner";
 
 export const metadata = {
   title: "Garden Guru",
@@ -41,6 +42,7 @@ export default function RootLayout({
           </div>
           {modal}
           <div id="modal-root" />
+          <Toaster />
         </body>
       </html>
     </ClerkProvider>
