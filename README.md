@@ -1,6 +1,7 @@
 # T3 Garden Guru
 
-Current rewrite and setup of Garden Guru
+Current rewrite and setup of Garden Guru 
+
 
 ## TODO
 ### Init setup
@@ -19,6 +20,7 @@ Current rewrite and setup of Garden Guru
 - [x] Analytics (posthog)
 - [x] Delete button with server actions
 - [x] Ratelimiting (upstash)
+- [x] Lock uploading for all users
 
 
 ## Features
