@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useUploadThing } from "~/utils/uploadthing";
 import { toast } from "sonner";
 import { usePostHog } from "posthog-js/react";
+import { totalmem } from "os";
 
 // inferred input off useUploadThing
 type Input = Parameters<typeof useUploadThing>;

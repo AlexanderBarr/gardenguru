@@ -13,6 +13,8 @@ Current rewrite and setup of Garden Guru
 - [x] use Next/Image component
 - [x] Error management (w/ Sentry)
 - [x] Routing/image page (parallel route)
+- [x] Update upload button
+- [x] Add Shadcn (toasts)
 - [ ] Delete button with server actions
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
