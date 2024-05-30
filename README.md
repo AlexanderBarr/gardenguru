@@ -19,3 +19,18 @@ Current rewrite and setup of Garden Guru
 
 
 ## Features
+
+
+## Standards 
+
+Feat– feature
+
+Fix– bug fixes
+
+Docs– changes to the documentation like README
+
+Style– style or formatting change 
+
+Perf – improves code performance
+
+Test– test a feature
