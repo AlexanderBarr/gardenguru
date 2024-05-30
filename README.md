@@ -30,22 +30,22 @@ Current rewrite and setup of Garden Guru
 
 
 ## Git Standards 
-Feat– feature
-Fix– bug fixes
-Docs– changes to the documentation like README
-Style– style or formatting change 
-Perf – improves code performance
-Test– test a feature
+- Feat– feature
+- Fix– bug fixes
+- Docs– changes to the documentation like README
+- Style– style or formatting change 
+- Perf – improves code performance
+- Test– test a feature
 
 ## Tech Stack
 - React | Next.js 
 - Vercel (Builds and Deployment)
     - https://vercel.com/
 - Clerk (Authentication)
-    -https://clerk.com/
+    - https://clerk.com/
 - Sentry (Error Management and Tracking)
-    -https://sentry.io
+    - https://sentry.io
 - PostHog (Analytics)
-    -https://posthog.com/
+    - https://posthog.com/
 - UpStash (RateLimiting)
-    -https://upstash.com/
+    - https://upstash.com/
