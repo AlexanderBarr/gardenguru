@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@clerk/nextjs': ^5.1.2
+  '@radix-ui/react-slot': ^1.0.2
   '@sentry/nextjs': ^8
   '@t3-oss/env-nextjs': ^0.10.1
   '@types/eslint': ^8.56.2
@@ -44,6 +45,7 @@ specifiers:
 
 dependencies:
   '@clerk/nextjs': 5.1.2_opdck7bpzubbpkrxm4ujpzhmcq
+  '@radix-ui/react-slot': 1.0.2_pcklb7m674k6u3r3q7fjhnofge
   '@sentry/nextjs': 8.4.0_next@14.2.3+react@18.2.0
   '@t3-oss/env-nextjs': 0.10.1_jrsixfd3f4mjiftf2iqecb3p7i
   '@uploadthing/react': 6.6.0_frqxzsdlwkogjh4rrpylw36plq
@@ -1440,6 +1442,35 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.24.1_@opentelemetry+api@1.8.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@radix-ui/react-compose-refs/1.0.1_pcklb7m674k6u3r3q7fjhnofge:
+    resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==}
+    peerDependencies:
+      '@types/react': '*'
+      react: ^16.8 || ^17.0 || ^18.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@types/react': 18.3.3
+      react: 18.2.0
+    dev: false
+
+  /@radix-ui/react-slot/1.0.2_pcklb7m674k6u3r3q7fjhnofge:
+    resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==}
+    peerDependencies:
+      '@types/react': '*'
+      react: ^16.8 || ^17.0 || ^18.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@radix-ui/react-compose-refs': 1.0.1_pcklb7m674k6u3r3q7fjhnofge
+      '@types/react': 18.3.3
+      react: 18.2.0
     dev: false
 
   /@rollup/plugin-commonjs/24.0.0_rollup@3.29.4:

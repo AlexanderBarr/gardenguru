@@ -15,7 +15,7 @@ Current rewrite and setup of Garden Guru
 - [x] Routing/image page (parallel route)
 - [x] Update upload button
 - [x] Add Shadcn (toasts)
-- [ ] Analytics (posthog)
+- [x] Analytics (posthog)
 - [ ] Delete button with server actions
 - [ ] Ratelimiting (upstash)
 
